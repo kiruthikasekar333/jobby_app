@@ -1,0 +1,86 @@
+/* CreateJobs.css */
+
+/* Container styles */
+.create-jobs-container {
+    background-image: url('C:\Kiruthika\jobs\full-stack-dev\projects\Proj_JobApp\frontend\src\Assets\bgImg12.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.create-jobs-form {
+    background-color: rgba(252, 211, 77); 
+    /* background-color:white; */
+    height: 800px; 
+    border-radius: 8px;
+    padding: 30px;
+    width: 80%; /* Adjust the width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Display form fields in two columns */
+    grid-gap: -40px; /* Adjust the gap between columns */
+  }
+
+/* Form field styles */
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150%;
+}
+h1{
+    text-align: center;
+}
+
+/* Style the error message in red */
+.error-message {
+    color: red;
+    margin-top: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    width: 100%; /* Set full width for single column on small screens */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for smaller screens */
+@media (min-width: 600px) {
+    .form-group {
+        width: calc(50% - 10px);
+    }
+
+    button {
+        width: fit-content;
+        margin-left: 110px;
+        margin-top: 80px;
+    }
+}

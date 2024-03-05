@@ -1,0 +1,85 @@
+.custom-menu {
+  background-color: #0c1d36;
+  padding: 10px;
+  border-radius: 5px;
+margin: 10px;
+  margin-top: 10px;
+  height: 60px; 
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width:'1000px'
+}
+
+.custom-menu .nav-link {
+  color: #f9cc0b;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom:24px;
+}
+
+.custom-menu .nav-link:hover,
+.custom-menu .nav-link:focus {
+  background-color: #dee2e6;
+  color: #343a40;
+}
+
+/* CSS for logo image */
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px; 
+  border-radius: 50%;
+  margin-top: -20px;
+}
+
+/* Add this in your CSS file, e.g., Navbar.css */
+
+.user-image-responsive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    /* margin-left: 700px;  */
+  }
+
+.user-info{
+  font-weight: 600;
+  white-space: nowrap;
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .user-image-responsive {
+    margin-left: auto; /* Adjust for smaller screens */
+    margin-top:-92px;
+  }
+
+  .custom-menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .custom-menu .nav-link {
+    margin: 10px 0;
+    margin-left: 0; /* Adjusted to remove unnecessary left margin */
+    margin-bottom: 0; /* Adjusted to remove unnecessary bottom margin */
+  }
+
+  .logo {
+    margin: 10px 0;
+  }
+
+  .user-info {
+    margin-top: 10px;
+    margin-right: 0; /* Adjusted to remove unnecessary right margin */
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  .dropdown-container {
+    margin-top: -126px; /* Adjust as needed */
+  }
+}
+

@@ -1,0 +1,74 @@
+
+.main-container{
+
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.home-container {
+  
+  border-radius: 10px;
+  margin: 10px;
+background-image: url("C:\Kiruthika\jobs\full-stack-dev\projects\Proj_JobApp\frontend\src\Assets\homeAnim.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: 10% 10%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: bgAnimation 10s linear infinite; 
+}
+@keyframes bgAnimation {
+  50% {
+    background-position: 80% 50%;
+  }
+  50% {
+    background-position: 40% 20%;
+  }
+}
+
+.content {
+  width:400px;
+  height: 400px;
+  text-align:center;
+  border: 2px  rgb(50, 48, 48);
+  padding: 20px;
+  margin-left: 800px;
+  font-family: Arial, sans-serif; 
+  font-size: 18px;
+  background-color: rgba(12, 29, 54, 0.2);
+border-radius: 5px;
+
+}
+
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: none;
+  padding: 20px;
+  background-color: rgba(252, 211, 77, 0.9);
+
+}
+
+.carousel-slide.active {
+  display: block;
+}
+.highlight-title{
+  font-size: smaller;
+  color:#2f5184;
+}
+.highlight-description{
+  text-align: justify;
+}
+

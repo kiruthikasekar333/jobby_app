@@ -1,0 +1,90 @@
+/* JobListByEmployerId.css */
+/* 
+.jlmain-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  border-radius: 10px;
+} */
+
+.jlsub-container {
+  background-size: cover;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  padding: 60px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: #ddd; */
+  background-image: url('C:\Kiruthika\jobs\full-stack-dev\projects\Proj_JobApp\frontend\src\Assets\bgImg.jpg');
+  justify-content: center;
+  align-items: center;
+  
+}
+.job-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center job cards horizontally */
+}
+.job-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin between cards */
+  width: 800px !important;
+  
+}
+.company-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-logo {
+  max-width: 10%;
+  
+  margin-bottom: 10px;
+}
+
+h2 {
+  
+  text-align: center;
+  /* color: white; */
+  margin-top: -60px;
+  padding: 10px;
+  
+}
+
+.edit-delete-buttons {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: -60px;
+  
+}
+
+.edit-delete-buttons button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.add-job-button {
+  margin-top: -10px;
+  margin-bottom: 20px;
+ font-weight: 900;
+}
+.delete-job-button:hover {
+  background-color: #d32f2f; /* Darker red shade for hover */
+}
+.add-job-button:hover {
+  background-color: #45a049; /* Green shade for hover */
+}
+.separator-line {
+  border: 0;
+  height: 1px;
+  background-color: #626060;
+  margin: 15px 0;
+}
+/* Add more styles as needed */
